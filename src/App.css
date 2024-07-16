@@ -13,22 +13,34 @@
   color: white;
 }
 
-.timezone-list {
-  list-style-type: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 0 auto;
+.standings-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
 }
 
-.timezone-item {
-  background-color: #61dafb;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
-  color: #282c34;
-  font-weight: bold;
+.standings-table th,
+.standings-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.timezone-item:nth-child(even) {
-  background-color: #21a1f1;
+.standings-table th {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
 }
+
+.standings-table tr:nth-child(even) {
+  background-color: #16d2af;
+}
+
+.standings-table tr:hover {
+  background-color: #ddd;
+}
+
+.standings-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+

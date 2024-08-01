@@ -1,0 +1,49 @@
+{
+    "response": [
+      {
+        "league": {
+          "standings": [
+            [
+              {
+                "rank": 1,
+                "team": {
+                  "name": "Team A"
+                },
+                "points": 85,
+                "all": {
+                  "played": 38,
+                  "win": 27,
+                  "draw": 4,
+                  "lose": 7,
+                  "goals": {
+                    "for": 90,
+                    "against": 30
+                  }
+                },
+                "goalsDiff": 60
+              },
+              {
+                "rank": 2,
+                "team": {
+                  "name": "Team B"
+                },
+                "points": 83,
+                "all": {
+                  "played": 38,
+                  "win": 26,
+                  "draw": 5,
+                  "lose": 7,
+                  "goals": {
+                    "for": 85,
+                    "against": 32
+                  }
+                },
+                "goalsDiff": 53
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  }
+  
